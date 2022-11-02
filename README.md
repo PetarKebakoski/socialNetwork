@@ -2,6 +2,8 @@
 Social Network designed for Ethical Hacking
 
 # Run
+To run this application, you must install Python on your computer.
+
 **Command Prompt:**
 
 python -m http.server
