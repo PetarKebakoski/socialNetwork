@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Social Network - HTML - CSS - JavaScript"
+    />
+    <meta name="author" content="Petar Kebakoski" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Social Network, Hexa"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hexa</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="logo">
+      <img src="images/logo.png" alt="Hexa Logo" />
+    </div>
+    <h1>Social Network designed for Ethical Hacking</h1>
+    <div class="main-wrapper">
+      <form id="loginForm">
+        <h2>Login</h2>
+        <div>
+          <label>Email: </label>
+          <input
+            type="email"
+            name="email"
+            id="login_email"
+            placeholder="john.doe@email.com"
+          />
+        </div>
+        <div>
+          <label>Password: </label>
+          <input
+            type="password"
+            name="password"
+            id="login_password"
+            placeholder="********"
+          />
+        </div>
+        <div>
+          <button>Login</button>
+        </div>
+      </form>
+    </div>
+    <div class="no-acc-register">
+      <p>Don't have an account?</p>
+      <button id="register">Register Now</button>
+    </div>
+    <div class="custom-modal">
+      <button id="closeModal">X</button>
+      <form id="registrationForm">
+        <h2>Registration Form</h2>
+        <div>
+          <label for="user_name">Username: *</label>
+          <input
+            id="user_name"
+            type="text"
+            name="user_name"
+            placeholder="john.doe1"
+          />
+        </div>
+        <div>
+          <label for="email">Email: *</label>
+          <input
+            id="email"
+            type="text"
+            name="register_email"
+            placeholder="john.doe@email.com"
+          />
+        </div>
+        <div>
+          <label for="password">Password: *</label>
+          <input
+            id="password"
+            type="password"
+            name="register_password"
+            placeholder="********"
+          />
+        </div>
+        <div>
+          <label for="confirm_password">Confirm password: *</label>
+          <input
+            id="confirm_password"
+            type="password"
+            name="confirm_password"
+            placeholder="********"
+          />
+        </div>
+        <div>
+          <button>Register Now</button>
+        </div>
+      </form>
+    </div>
+    <script type="text/javascript" src="js/Validator.js"></script>
+    <script type="text/javascript" src="js/Session.js"></script>
+    <script type="text/javascript" src="js/User.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
